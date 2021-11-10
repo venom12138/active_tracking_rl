@@ -114,6 +114,7 @@ if __name__ == '__main__':
         p.start()
         processes.append(p)
         time.sleep(args.sleep_time)
+    # 每个线程轮流工作，test, train1, train2, train3
     for p in processes:
         time.sleep(args.sleep_time)
         p.join()
