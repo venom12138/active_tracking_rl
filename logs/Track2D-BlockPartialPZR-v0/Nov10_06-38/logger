@@ -1,0 +1,75 @@
+2021-11-10 06:38:15,705 : lr: 0.001
+2021-11-10 06:38:15,706 : gamma: 0.9
+2021-11-10 06:38:15,706 : tau: 1.0
+2021-11-10 06:38:15,706 : entropy: 0.01
+2021-11-10 06:38:15,706 : entropy_target: 0.2
+2021-11-10 06:38:15,706 : seed: 1
+2021-11-10 06:38:15,706 : workers: 16
+2021-11-10 06:38:15,706 : num_steps: 20
+2021-11-10 06:38:15,706 : test_eps: 100
+2021-11-10 06:38:15,706 : env: Track2D-BlockPartialPZR-v0
+2021-11-10 06:38:15,706 : env_base: Track2D-BlockPartialNav-v0
+2021-11-10 06:38:15,706 : optimizer: Adam
+2021-11-10 06:38:15,706 : amsgrad: True
+2021-11-10 06:38:15,706 : load_model_dir: None
+2021-11-10 06:38:15,706 : log_dir: logs/Track2D-BlockPartialPZR-v0/Nov10_06-38
+2021-11-10 06:38:15,706 : network: tat-maze-lstm
+2021-11-10 06:38:15,706 : aux: reward
+2021-11-10 06:38:15,707 : gpu_ids: [-1]
+2021-11-10 06:38:15,707 : obs: img
+2021-11-10 06:38:15,707 : single: False
+2021-11-10 06:38:15,707 : gray: False
+2021-11-10 06:38:15,707 : crop: False
+2021-11-10 06:38:15,707 : inv: False
+2021-11-10 06:38:15,707 : rescale: False
+2021-11-10 06:38:15,707 : render: False
+2021-11-10 06:38:15,707 : shared_optimizer: True
+2021-11-10 06:38:15,707 : split: True
+2021-11-10 06:38:15,707 : train_mode: -1
+2021-11-10 06:38:15,707 : stack_frames: 1
+2021-11-10 06:38:15,707 : input_size: 80
+2021-11-10 06:38:15,707 : rnn_out: 128
+2021-11-10 06:38:15,707 : sleep_time: 0
+2021-11-10 06:38:15,707 : max_step: 150000
+2021-11-10 06:38:15,707 : init_step: -1
+2021-11-10 06:38:23,047 : Time 00h 00m 07s, ave eps reward [-9.80668746  9.80668746], ave eps length 18.62, reward step [-0.52667494  0.52667494]
+2021-11-10 06:38:28,820 : Time 00h 00m 13s, ave eps reward [-9.90482808  9.90482808], ave eps length 18.66, reward step [-0.53080536  0.53080536]
+2021-11-10 06:38:36,065 : Time 00h 00m 20s, ave eps reward [-10.22292245  10.22292245], ave eps length 18.69, reward step [-0.54697284  0.54697284]
+2021-11-10 06:38:43,613 : Time 00h 00m 27s, ave eps reward [-10.11421641  10.11421641], ave eps length 19.07, reward step [-0.53037317  0.53037317]
+2021-11-10 06:38:53,489 : Time 00h 00m 37s, ave eps reward [-8.48506728  8.48506728], ave eps length 23.06, reward step [-0.36795608  0.36795608]
+2021-11-10 06:39:04,343 : Time 00h 00m 48s, ave eps reward [-8.52940066  8.52940066], ave eps length 28.56, reward step [-0.29864848  0.29864848]
+2021-11-10 06:39:22,197 : Time 00h 01m 06s, ave eps reward [ 12.5345424 -12.5345424], ave eps length 82.0, reward step [ 0.15286027 -0.15286027]
+2021-11-10 06:40:12,452 : Time 00h 01m 56s, ave eps reward [ 203.3485645 -203.3485645], ave eps length 336.47, reward step [ 0.60435868 -0.60435868]
+2021-11-10 06:41:19,122 : Time 00h 03m 03s, ave eps reward [ 237.53264441 -237.53264441], ave eps length 384.88, reward step [ 0.61716027 -0.61716027]
+2021-11-10 06:42:12,997 : Time 00h 03m 57s, ave eps reward [ 217.37358565 -217.37358565], ave eps length 354.55, reward step [ 0.61309712 -0.61309712]
+2021-11-10 06:43:10,137 : Time 00h 04m 54s, ave eps reward [ 216.10082029 -216.10082029], ave eps length 354.94, reward step [ 0.60883761 -0.60883761]
+2021-11-10 06:44:09,697 : Time 00h 05m 53s, ave eps reward [ 252.59387995 -252.59387995], ave eps length 402.73, reward step [ 0.62720403 -0.62720403]
+2021-11-10 06:45:12,857 : Time 00h 06m 57s, ave eps reward [ 266.80916924 -266.80916924], ave eps length 426.0, reward step [ 0.6263126 -0.6263126]
+2021-11-10 06:46:23,963 : Time 00h 08m 08s, ave eps reward [ 291.89016381 -291.89016381], ave eps length 470.02, reward step [ 0.62101648 -0.62101648]
+2021-11-10 06:47:32,510 : Time 00h 09m 16s, ave eps reward [ 282.66566249 -282.66566249], ave eps length 453.12, reward step [ 0.62382076 -0.62382076]
+2021-11-10 06:48:49,813 : Time 00h 10m 34s, ave eps reward [ 307.03469552 -307.03469552], ave eps length 488.06, reward step [ 0.62909211 -0.62909211]
+2021-11-10 06:50:04,533 : Time 00h 11m 48s, ave eps reward [ 310.90568091 -310.90568091], ave eps length 487.36, reward step [ 0.63793845 -0.63793845]
+2021-11-10 06:51:20,823 : Time 00h 13m 05s, ave eps reward [ 300.76347723 -300.76347723], ave eps length 484.27, reward step [ 0.62106568 -0.62106568]
+2021-11-10 06:52:32,085 : Time 00h 14m 16s, ave eps reward [ 283.99626521 -283.99626521], ave eps length 453.23, reward step [ 0.62660518 -0.62660518]
+2021-11-10 06:53:45,890 : Time 00h 15m 30s, ave eps reward [ 294.55094039 -294.55094039], ave eps length 465.33, reward step [ 0.63299366 -0.63299366]
+2021-11-10 06:55:03,548 : Time 00h 16m 47s, ave eps reward [ 304.55484634 -304.55484634], ave eps length 483.28, reward step [ 0.63018301 -0.63018301]
+2021-11-10 06:56:17,232 : Time 00h 18m 01s, ave eps reward [ 296.90935829 -296.90935829], ave eps length 474.76, reward step [ 0.62538832 -0.62538832]
+2021-11-10 06:57:30,307 : Time 00h 19m 14s, ave eps reward [ 295.71034684 -295.71034684], ave eps length 468.38, reward step [ 0.63134708 -0.63134708]
+2021-11-10 06:58:38,148 : Time 00h 20m 22s, ave eps reward [ 295.70334654 -295.70334654], ave eps length 470.44, reward step [ 0.62856761 -0.62856761]
+2021-11-10 06:59:51,916 : Time 00h 21m 36s, ave eps reward [ 295.01423502 -295.01423502], ave eps length 464.05, reward step [ 0.63573803 -0.63573803]
+2021-11-10 07:01:04,364 : Time 00h 22m 48s, ave eps reward [ 289.10662595 -289.10662595], ave eps length 464.89, reward step [ 0.62188179 -0.62188179]
+2021-11-10 07:02:24,426 : Time 00h 24m 08s, ave eps reward [ 316.35554694 -316.35554694], ave eps length 495.89, reward step [ 0.63795508 -0.63795508]
+2021-11-10 07:03:38,323 : Time 00h 25m 22s, ave eps reward [ 311.68706172 -311.68706172], ave eps length 491.11, reward step [ 0.63465835 -0.63465835]
+2021-11-10 07:04:50,394 : Time 00h 26m 34s, ave eps reward [ 309.06278517 -309.06278517], ave eps length 494.26, reward step [ 0.62530406 -0.62530406]
+2021-11-10 07:06:01,139 : Time 00h 27m 45s, ave eps reward [ 299.51865095 -299.51865095], ave eps length 483.13, reward step [ 0.61995457 -0.61995457]
+2021-11-10 07:07:15,249 : Time 00h 28m 59s, ave eps reward [ 311.26869892 -311.26869892], ave eps length 488.51, reward step [ 0.63717979 -0.63717979]
+2021-11-10 07:08:25,516 : Time 00h 30m 09s, ave eps reward [ 292.29374537 -292.29374537], ave eps length 472.92, reward step [ 0.61806171 -0.61806171]
+2021-11-10 07:09:40,130 : Time 00h 31m 24s, ave eps reward [ 315.64115441 -315.64115441], ave eps length 491.32, reward step [ 0.64243498 -0.64243498]
+2021-11-10 07:10:57,103 : Time 00h 32m 41s, ave eps reward [ 306.64556495 -306.64556495], ave eps length 494.08, reward step [ 0.6206395 -0.6206395]
+2021-11-10 07:12:15,116 : Time 00h 33m 59s, ave eps reward [ 283.32817358 -283.32817358], ave eps length 445.93, reward step [ 0.63536468 -0.63536468]
+2021-11-10 07:13:29,492 : Time 00h 35m 13s, ave eps reward [ 308.03860177 -308.03860177], ave eps length 490.89, reward step [ 0.62751044 -0.62751044]
+2021-11-10 07:14:42,580 : Time 00h 36m 26s, ave eps reward [ 314.57831792 -314.57831792], ave eps length 489.95, reward step [ 0.64206208 -0.64206208]
+2021-11-10 07:15:59,053 : Time 00h 37m 43s, ave eps reward [ 319.26922331 -319.26922331], ave eps length 495.28, reward step [ 0.64462369 -0.64462369]
+2021-11-10 07:17:13,103 : Time 00h 38m 57s, ave eps reward [ 313.38891528 -313.38891528], ave eps length 487.94, reward step [ 0.64226937 -0.64226937]
+2021-11-10 07:18:22,853 : Time 00h 40m 07s, ave eps reward [ 298.53220803 -298.53220803], ave eps length 467.78, reward step [ 0.63818934 -0.63818934]
+2021-11-10 07:19:37,100 : Time 00h 41m 21s, ave eps reward [ 304.80303302 -304.80303302], ave eps length 485.71, reward step [ 0.62754119 -0.62754119]

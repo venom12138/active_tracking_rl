@@ -1,0 +1,388 @@
+Project file not found: ../../../tracking/tracking.uprojectIncreasing per-process limit of core file size to infinity.
+LogInit: Display: Running engine for game: tracking
+LogInit: Display: Project file not found: ../../../tracking/tracking.uproject
+LogInit: Display: 	Attempting to find via project info helper.
+LogUProjectInfo: Found projects:
+LogPlatformFile: Using cached read wrapper
+LogInit: Display: RandInit(1729316126) SRandInit(1729316126).
+LogInit: Overriding engine version to CL 0, compatible CL 0
+LogTaskGraph: Started task graph with 5 named threads and 17 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.019381
+LogICUInternationalization: Display: ICU TimeZone Detection - Raw Offset: +0:00, Platform Override: ''
+LogPluginManager: Mounting plugin UnrealCV
+LogPluginManager: Mounting plugin VictoryBPLibrary
+LogPluginManager: Mounting plugin ApexDestruction
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin LinearTimecode
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleARKit
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin LiveLink
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin ImmediatePhysics
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SteamVR
+LogStreaming: Display: Took  0.061s to configure plugins.
+[33mLogFileManager: Warning: ReadFile failed: Count=0 Length=4096 Error=errno=21 (Is a directory) for file 
+[0mLogInit: Using libcurl 7.57.0
+LogInit:  - built for x86_64-pc-linux-gnu
+LogInit:  - supports SSL with OpenSSL/1.0.2h
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_TLSAUTH_SRP
+LogInit:  Libcurl: checking if '/etc/pki/tls/certs/ca-bundle.crt' exists
+LogInit:  Libcurl: checking if '/etc/ssl/certs/ca-certificates.crt' exists
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = /etc/ssl/certs/ca-certificates.crt  - Libcurl will set CURLOPT_CAINFO to it
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit: Build: ++UE4+Release-4.19-CL-0
+LogInit: Engine Version: 4.19.2-0+++UE4+Release-4.19
+LogInit: Compatible Engine Version: 4.19.0-0+++UE4+Release-4.19
+LogInit: Net CL: 0
+LogDevObjectVersion: Number of dev versions registered: 18
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   DelibEGL warning: failed to open /dev/dri/renderD128: Permission denied
+
+libEGL warning: failed to open /dev/dri/renderD128: Permission denied
+
+v-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 23
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 33
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 25
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 6
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 1
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 2
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 16
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogInit: Compiled (64-bit): Aug 16 2018 18:36:09
+LogInit: Compiled with Clang: 3.8.0 (tags/RELEASE_380/final)
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.19
+LogInit: Command Line: 
+LogInit: Base Directory: /home/xuejie/venom/Tracker/gym-unrealcv/gym_unrealcv/envs/UnrealEnv/DuelingRoom/tracking/Binaries/Linux/
+LogInit: Installed Engine Build: 0
+LogStreaming: Display: Took  0.000s to delete old logs.
+LogInit: Presizing for max 2097152 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogStreaming: Display: Async Loading initialized: Event Driven Loader: true, Async Loading Thread: false
+LogInit: Object subsystem initialized
+[2021.11.10-14.40.11:325][  0]LogInit: Initializing SDL.
+[2021.11.10-14.40.11:334][  0]LogInit: Using SDL_WINDOW_OPENGL
+[2021.11.10-14.40.11:334][  0]LogInit: Initialized SDL 2.0.5 revision: 11184 (hg-11184:04063928c4a8 with EpicExtensions) (compiled against 2.0.5)
+[2021.11.10-14.40.11:334][  0]LogInit: Display metrics:
+[2021.11.10-14.40.11:334][  0]LogInit:   PrimaryDisplayWidth: 1024
+[2021.11.10-14.40.11:334][  0]LogInit:   PrimaryDisplayHeight: 768
+[2021.11.10-14.40.11:334][  0]LogInit:   PrimaryDisplayWorkAreaRect:
+[2021.11.10-14.40.11:334][  0]LogInit:     Left=0, Top=0, Right=1024, Bottom=768
+[2021.11.10-14.40.11:334][  0]LogInit:   VirtualDisplayRect:
+[2021.11.10-14.40.11:334][  0]LogInit:     Left=0, Top=0, Right=1024, Bottom=768
+[2021.11.10-14.40.11:334][  0]LogInit:   TitleSafePaddingSize: X=0.000 Y=0.000 Z=0.000 W=0.000
+[2021.11.10-14.40.11:334][  0]LogInit:   ActionSafePaddingSize: X=0.000 Y=0.000 Z=0.000 W=0.000
+[2021.11.10-14.40.11:334][  0]LogInit:   Number of monitors: 1
+[2021.11.10-14.40.11:334][  0]LogInit:     Monitor 0
+[2021.11.10-14.40.11:334][  0]LogInit:       Name: 0
+[2021.11.10-14.40.11:334][  0]LogInit:       ID: display0
+[2021.11.10-14.40.11:334][  0]LogInit:       NativeWidth: 1024
+[2021.11.10-14.40.11:334][  0]LogInit:       NativeHeight: 768
+[2021.11.10-14.40.11:334][  0]LogInit:       bIsPrimary: true
+[2021.11.10-14.40.11:334][  0]LogLinux: Selected Device Profile: [LinuxNoEditor]
+[2021.11.10-14.40.11:334][  0]LogInit: Applying CVar settings loaded from the selected device profile: [LinuxNoEditor]
+[2021.11.10-14.40.11:340][  0]LogInit: Linux hardware info:
+[2021.11.10-14.40.11:340][  0]LogInit:  - we are the first instance of this executable
+[2021.11.10-14.40.11:340][  0]LogInit:  - this process' id (pid) is 175232, parent process' id (ppid) is 175231
+[2021.11.10-14.40.11:340][  0]LogInit:  - we are not running under debugger
+[2021.11.10-14.40.11:340][  0]LogInit:  - machine network name is 'thor'
+[2021.11.10-14.40.11:340][  0]LogInit:  - user name is 'xuejie' (xuejie)
+[2021.11.10-14.40.11:340][  0]LogInit:  - we're logged in remotely
+[2021.11.10-14.40.11:340][  0]LogInit:  - we're running with rendering
+[2021.11.10-14.40.11:340][  0]LogInit:  - CPU: AuthenticAMD 'AMD Ryzen 9 5950X 16-Core Processor            ' (signature: 0xA20F10)
+[2021.11.10-14.40.11:340][  0]LogInit:  - Number of physical cores available for the process: 16
+[2021.11.10-14.40.11:340][  0]LogInit:  - Number of logical cores available for the process: 32
+[2021.11.10-14.40.11:340][  0]LogInit:  - Cache line size: 64
+[2021.11.10-14.40.11:340][  0]LogInit:  - Memory allocator used: binned2
+[2021.11.10-14.40.11:340][  0]LogLinux: Benchmarking clocks:
+[2021.11.10-14.40.11:340][  0]LogLinux:  - CLOCK_REALTIME (id=0) can sustain 50418078 (50418K, 50M) calls per second without zero deltas.
+[2021.11.10-14.40.11:340][  0]LogLinux:  - CLOCK_MONOTONIC (id=1) can sustain 51616243 (51616K, 52M) calls per second without zero deltas.
+[2021.11.10-14.40.11:340][  0]LogLinux:  - CLOCK_MONOTONIC_RAW (id=4) can sustain 50972868 (50973K, 51M) calls per second without zero deltas.
+[2021.11.10-14.40.11:340][  0]LogLinux:  - CLOCK_MONOTONIC_COARSE (id=6) can sustain 186524622 (186525K, 187M) calls per second with 99.999861% zero deltas.
+[2021.11.10-14.40.11:340][  0]LogLinux: Selected clock_id 1 (CLOCK_MONOTONIC) since it is the fastest support clock without zero deltas.
+[2021.11.10-14.40.11:340][  0]LogInit: Linux-specific commandline switches:
+[2021.11.10-14.40.11:340][  0]LogInit:  -nodwarf (currently OFF): suppress parsing of DWARF debug info (callstacks will be generated faster, but won't have line numbers)
+[2021.11.10-14.40.11:340][  0]LogInit:  -ansimalloc - use malloc()/free() from libc (useful for tools like valgrind and electric fence)
+[2021.11.10-14.40.11:340][  0]LogInit:  -jemalloc - use jemalloc for all memory allocation
+[2021.11.10-14.40.11:340][  0]LogInit:  -binnedmalloc - use binned malloc  for all memory allocation
+[2021.11.10-14.40.11:340][  0]LogInit:  -httpproxy=ADDRESS:PORT - redirects HTTP requests to a proxy (only supported if compiled with libcurl)
+[2021.11.10-14.40.11:340][  0]LogInit:  -reuseconn - allow libcurl to reuse HTTP connections (only matters if compiled with libcurl)
+[2021.11.10-14.40.11:340][  0]LogInit:  -virtmemkb=NUMBER - sets process virtual memory (address space) limit (overrides VirtualMemoryLimitInKB value from .ini)
+[2021.11.10-14.40.11:340][  0]LogInit:  - Physical RAM available (not considering process quota): 63 GB (64298 MB, 65841360 KB, 67421552640 bytes)
+[2021.11.10-14.40.11:350][  0]LogInit: Using OS detected language (en-US).
+[2021.11.10-14.40.11:350][  0]LogInit: Using OS detected locale (en-US).
+[2021.11.10-14.40.11:350][  0]LogTextLocalizationManager: No localization for 'en-US' exists, so 'en' will be used for the language.
+[2021.11.10-14.40.11:350][  0]LogTextLocalizationManager: No localization for 'en-US' exists, so 'en' will be used for the locale.
+[2021.11.10-14.40.11:367][  0]LogStreaming: Display: Took  0.017s to EndInitTextLocalization.
+[2021.11.10-14.40.11:369][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2021.11.10-14.40.11:369][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+Signal 11 caught.
+Malloc Size=131076 LargeMemoryPoolOffset=131092 
+CommonLinuxCrashHandler: Signal=11
+Malloc Size=65535 LargeMemoryPoolOffset=196655 
+[2021.11.10-14.40.11:720][  0]LogLinux: === Critical error: ===
+Unhandled Exception: SIGSEGV: invalid attempt to read memory at address 0x0000000000000010
+
+[2021.11.10-14.40.11:720][  0]LogLinux: Fatal error!
+
+0x000000000229c725 FLinuxPlatformStackWalk::CaptureStackBackTrace(unsigned long long*, unsigned int, void*) [/data_1/linux_ue/UnrealEngine-4.19/Engine/Source/Runtime/Core/Private/Linux/LinuxPlatformStackWalk.cpp:1038]
+0x0000000002185ca5 FGenericPlatformStackWalk::StackWalkAndDump(char*, unsigned long, int, void*) [/data_1/linux_ue/UnrealEngine-4.19/Engine/Source/Runtime/Core/Private/GenericPlatform/GenericPlatformStackWalk.cpp:171]
+0x000000000225a950 FLinuxCrashContext::CaptureStackTrace() [Runtime/Core/Public/Containers/ContainerAllocationPolicies.h:332]
+0x000000000511bcfb CommonLinuxCrashHandler(FGenericCrashContext const&) [/data_1/linux_ue/UnrealEngine-4.19/Engine/Source/Runtime/Linux/LinuxCommonStartup/Private/LinuxCommonStartup.cpp:37]
+0x000000000225c1ad PlatformCrashHandler(int, siginfo_t*, void*) [/data_1/linux_ue/UnrealEngine-4.19/Engine/Source/Runtime/Core/Private/Linux/LinuxPlatformCrashContext.cpp:521]
+0x00007f0209bf93c0 /lib/x86_64-linux-gnu/libpthread.so.0(+0x153c0) [0x7f0209bf93c0]
+0x0000000005752de8 /home/xuejie/venom/Tracker/gym-unrealcv/gym_unrealcv/envs/UnrealEnv/DuelingRoom/tracking/Binaries/Linux/tracking() [0x5752de8]
+0x00000000056d1217 /home/xuejie/venom/Tracker/gym-unrealcv/gym_unrealcv/envs/UnrealEnv/DuelingRoom/tracking/Binaries/Linux/tracking() [0x56d1217]
+0x000000000379774a Linux_PlatformCreateDummyGLWindow(FPlatformOpenGLContext*) [/data_1/linux_ue/UnrealEngine-4.19/Engine/Source/Runtime/OpenGLDrv/Private/Linux/OpenGLLinux.cpp:119]
+0x0000000003799a18 PlatformInitOpenGL() [/data_1/linux_ue/UnrealEngine-4.19/Engine/Source/Runtime/OpenGLDrv/Private/Linux/OpenGLLinux.cpp:852]
+0x00000000037b5a3c FOpenGLDynamicRHI::FOpenGLDynamicRHI() [/data_1/linux_ue/UnrealEngine-4.19/Engine/Source/Runtime/OpenGLDrv/Private/Linux/OpenGLLinux.cpp:311]
+0x00000000037b57ec FOpenGLDynamicRHIModule::CreateRHI(ERHIFeatureLevel::Type) [/data_1/linux_ue/UnrealEngine-4.19/Engine/Source/Runtime/OpenGLDrv/Private/OpenGLDevice.cpp:1076]
+0x000000000381a5db PlatformCreateDynamicRHI() [/data_1/linux_ue/UnrealEngine-4.19/Engine/Source/Runtime/RHI/Private/Linux/LinuxDynamicRHI.cpp:68]
+0x0000000003819bff RHIInit(bool) [/data_1/linux_ue/UnrealEngine-4.19/Engine/Source/Runtime/RHI/Private/DynamicRHI.cpp:180]
+0x000000000212d808 FEngineLoop::PreInit(wchar_t const*) [/data_1/linux_ue/UnrealEngine-4.19/Engine/Source/Runtime/Launch/Private/LaunchEngineLoop.cpp:1785]
+0x000000000213ba38 GuardedMain(wchar_t const*) [/data_1/linux_ue/UnrealEngine-4.19/Engine/Source/Runtime/Launch/Private/Launch.cpp:42]
+0x000000000511ca23 CommonLinuxMain(int, char**, int (*)(wchar_t const*)) [/data_1/linux_ue/UnrealEngine-4.19/Engine/Source/Runtime/Linux/LinuxCommonStartup/Private/LinuxCommonStartup.cpp:236]
+0x00007f02090f90b3 /lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xf3) [0x7f02090f90b3]
+0x000000000212a889 /home/xuejie/venom/Tracker/gym-unrealcv/gym_unrealcv/envs/UnrealEnv/DuelingRoom/tracking/Binaries/Linux/tracking(_start+0x29) [0x212a889]
+
+[2021.11.10-14.40.11:730][  0]LogExit: Executing StaticShutdownAfterError
+Engine crash handling finished; re-raising signal 11 for the default handler. Good bye.
+Project file not found: ../../../tracking/tracking.uprojectIncreasing per-process limit of core file size to infinity.
+LogInit: Display: Running engine for game: tracking
+LogInit: Display: Project file not found: ../../../tracking/tracking.uproject
+LogInit: Display: 	Attempting to find via project info helper.
+LogUProjectInfo: Found projects:
+LogPlatformFile: Using cached read wrapper
+LogInit: Display: RandInit(-2120911615) SRandInit(-2120911615).
+LogInit: Overriding engine version to CL 0, compatible CL 0
+LogTaskGraph: Started task graph with 5 named threads and 17 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.014332
+LogICUInternationalization: Display: ICU TimeZone Detection - Raw Offset: +0:00, Platform Override: ''
+LogPluginManager: Mounting plugin UnrealCV
+LogPluginManager: Mounting plugin VictoryBPLibrary
+LogPluginManager: Mounting plugin ApexDestruction
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin LinearTimecode
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleARKit
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin LiveLink
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin ImmediatePhysics
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SteamVR
+LogStreaming: Display: Took  0.060s to configure plugins.
+[33mLogFileManager: Warning: ReadFile failed: Count=0 Length=4096 Error=errno=21 (Is a directory) for file 
+[0mLogInit: Using libcurl 7.57.0
+LogInit:  - built for x86_64-pc-linux-gnu
+LogInit:  - supports SSL with OpenSSL/1.0.2h
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_TLSAUTH_SRP
+LogInit:  Libcurl: checking if '/etc/pki/tls/certs/ca-bundle.crt' exists
+LogInit:  Libcurl: checking if '/etc/ssl/certs/ca-certificates.crt' exists
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = /etc/ssl/certs/ca-certificates.crt  - Libcurl will set CURLOPT_CAINFO to it
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit: Build: ++UE4+Release-4.19-CL-0
+LogInit: Engine Version: 4.19.2-0+++UE4+Release-4.19
+LogInit: Compatible Engine Version: 4.19.0-0+++UE4+Release-4.19
+LogInit: Net CL: 0
+LogDevObjectVersion: Number of dev versions registered: 18
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   libEGL warning: failed to open /dev/dri/renderD128: Permission denied
+
+libEGL warning: failed to open /dev/dri/renderD128: Permission denied
+
+Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 23
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 33
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 25
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 6
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 1
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 2
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 16
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogInit: Compiled (64-bit): Aug 16 2018 18:36:09
+LogInit: Compiled with Clang: 3.8.0 (tags/RELEASE_380/final)
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.19
+LogInit: Command Line: 
+LogInit: Base Directory: /home/xuejie/venom/Tracker/gym-unrealcv/gym_unrealcv/envs/UnrealEnv/DuelingRoom/tracking/Binaries/Linux/
+LogInit: Installed Engine Build: 0
+LogStreaming: Display: Took  0.000s to delete old logs.
+LogInit: Presizing for max 2097152 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogStreaming: Display: Async Loading initialized: Event Driven Loader: true, Async Loading Thread: false
+LogInit: Object subsystem initialized
+[2021.11.10-14.47.36:061][  0]LogInit: Initializing SDL.
+[2021.11.10-14.47.36:064][  0]LogInit: Using SDL_WINDOW_OPENGL
+[2021.11.10-14.47.36:064][  0]LogInit: Initialized SDL 2.0.5 revision: 11184 (hg-11184:04063928c4a8 with EpicExtensions) (compiled against 2.0.5)
+[2021.11.10-14.47.36:064][  0]LogInit: Display metrics:
+[2021.11.10-14.47.36:064][  0]LogInit:   PrimaryDisplayWidth: 1024
+[2021.11.10-14.47.36:064][  0]LogInit:   PrimaryDisplayHeight: 768
+[2021.11.10-14.47.36:064][  0]LogInit:   PrimaryDisplayWorkAreaRect:
+[2021.11.10-14.47.36:064][  0]LogInit:     Left=0, Top=0, Right=1024, Bottom=768
+[2021.11.10-14.47.36:064][  0]LogInit:   VirtualDisplayRect:
+[2021.11.10-14.47.36:064][  0]LogInit:     Left=0, Top=0, Right=1024, Bottom=768
+[2021.11.10-14.47.36:064][  0]LogInit:   TitleSafePaddingSize: X=0.000 Y=0.000 Z=0.000 W=0.000
+[2021.11.10-14.47.36:064][  0]LogInit:   ActionSafePaddingSize: X=0.000 Y=0.000 Z=0.000 W=0.000
+[2021.11.10-14.47.36:064][  0]LogInit:   Number of monitors: 1
+[2021.11.10-14.47.36:064][  0]LogInit:     Monitor 0
+[2021.11.10-14.47.36:064][  0]LogInit:       Name: 0
+[2021.11.10-14.47.36:064][  0]LogInit:       ID: display0
+[2021.11.10-14.47.36:064][  0]LogInit:       NativeWidth: 1024
+[2021.11.10-14.47.36:064][  0]LogInit:       NativeHeight: 768
+[2021.11.10-14.47.36:064][  0]LogInit:       bIsPrimary: true
+[2021.11.10-14.47.36:064][  0]LogLinux: Selected Device Profile: [LinuxNoEditor]
+[2021.11.10-14.47.36:064][  0]LogInit: Applying CVar settings loaded from the selected device profile: [LinuxNoEditor]
+[2021.11.10-14.47.36:068][  0]LogInit: Linux hardware info:
+[2021.11.10-14.47.36:068][  0]LogInit:  - we are the first instance of this executable
+[2021.11.10-14.47.36:068][  0]LogInit:  - this process' id (pid) is 177704, parent process' id (ppid) is 177703
+[2021.11.10-14.47.36:068][  0]LogInit:  - we are not running under debugger
+[2021.11.10-14.47.36:068][  0]LogInit:  - machine network name is 'thor'
+[2021.11.10-14.47.36:068][  0]LogInit:  - user name is 'xuejie' (xuejie)
+[2021.11.10-14.47.36:068][  0]LogInit:  - we're logged in remotely
+[2021.11.10-14.47.36:069][  0]LogInit:  - we're running with rendering
+[2021.11.10-14.47.36:069][  0]LogInit:  - CPU: AuthenticAMD 'AMD Ryzen 9 5950X 16-Core Processor            ' (signature: 0xA20F10)
+[2021.11.10-14.47.36:069][  0]LogInit:  - Number of physical cores available for the process: 16
+[2021.11.10-14.47.36:069][  0]LogInit:  - Number of logical cores available for the process: 32
+[2021.11.10-14.47.36:069][  0]LogInit:  - Cache line size: 64
+[2021.11.10-14.47.36:069][  0]LogInit:  - Memory allocator used: binned2
+[2021.11.10-14.47.36:069][  0]LogLinux: Benchmarking clocks:
+[2021.11.10-14.47.36:069][  0]LogLinux:  - CLOCK_REALTIME (id=0) can sustain 50105812 (50106K, 50M) calls per second without zero deltas.
+[2021.11.10-14.47.36:069][  0]LogLinux:  - CLOCK_MONOTONIC (id=1) can sustain 51773201 (51773K, 52M) calls per second without zero deltas.
+[2021.11.10-14.47.36:069][  0]LogLinux:  - CLOCK_MONOTONIC_RAW (id=4) can sustain 50916768 (50917K, 51M) calls per second without zero deltas.
+[2021.11.10-14.47.36:069][  0]LogLinux:  - CLOCK_MONOTONIC_COARSE (id=6) can sustain 182688655 (182689K, 183M) calls per second with 99.999858% zero deltas.
+[2021.11.10-14.47.36:069][  0]LogLinux: Selected clock_id 1 (CLOCK_MONOTONIC) since it is the fastest support clock without zero deltas.
+[2021.11.10-14.47.36:069][  0]LogInit: Linux-specific commandline switches:
+[2021.11.10-14.47.36:069][  0]LogInit:  -nodwarf (currently OFF): suppress parsing of DWARF debug info (callstacks will be generated faster, but won't have line numbers)
+[2021.11.10-14.47.36:069][  0]LogInit:  -ansimalloc - use malloc()/free() from libc (useful for tools like valgrind and electric fence)
+[2021.11.10-14.47.36:069][  0]LogInit:  -jemalloc - use jemalloc for all memory allocation
+[2021.11.10-14.47.36:069][  0]LogInit:  -binnedmalloc - use binned malloc  for all memory allocation
+[2021.11.10-14.47.36:069][  0]LogInit:  -httpproxy=ADDRESS:PORT - redirects HTTP requests to a proxy (only supported if compiled with libcurl)
+[2021.11.10-14.47.36:069][  0]LogInit:  -reuseconn - allow libcurl to reuse HTTP connections (only matters if compiled with libcurl)
+[2021.11.10-14.47.36:069][  0]LogInit:  -virtmemkb=NUMBER - sets process virtual memory (address space) limit (overrides VirtualMemoryLimitInKB value from .ini)
+[2021.11.10-14.47.36:069][  0]LogInit:  - Physical RAM available (not considering process quota): 63 GB (64298 MB, 65841360 KB, 67421552640 bytes)
+[2021.11.10-14.47.36:075][  0]LogInit: Using OS detected language (en-US).
+[2021.11.10-14.47.36:075][  0]LogInit: Using OS detected locale (en-US).
+[2021.11.10-14.47.36:075][  0]LogTextLocalizationManager: No localization for 'en-US' exists, so 'en' will be used for the language.
+[2021.11.10-14.47.36:075][  0]LogTextLocalizationManager: No localization for 'en-US' exists, so 'en' will be used for the locale.
+[2021.11.10-14.47.36:090][  0]LogStreaming: Display: Took  0.016s to EndInitTextLocalization.
+[2021.11.10-14.47.36:093][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2021.11.10-14.47.36:093][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+Signal 11 caught.
+Malloc Size=131076 LargeMemoryPoolOffset=131092 
+CommonLinuxCrashHandler: Signal=11
+Malloc Size=65535 LargeMemoryPoolOffset=196655 
+[2021.11.10-14.47.36:436][  0]LogLinux: === Critical error: ===
+Unhandled Exception: SIGSEGV: invalid attempt to read memory at address 0x0000000000000010
+
+[2021.11.10-14.47.36:436][  0]LogLinux: Fatal error!
+
+0x000000000229c725 FLinuxPlatformStackWalk::CaptureStackBackTrace(unsigned long long*, unsigned int, void*) [/data_1/linux_ue/UnrealEngine-4.19/Engine/Source/Runtime/Core/Private/Linux/LinuxPlatformStackWalk.cpp:1038]
+0x0000000002185ca5 FGenericPlatformStackWalk::StackWalkAndDump(char*, unsigned long, int, void*) [/data_1/linux_ue/UnrealEngine-4.19/Engine/Source/Runtime/Core/Private/GenericPlatform/GenericPlatformStackWalk.cpp:171]
+0x000000000225a950 FLinuxCrashContext::CaptureStackTrace() [Runtime/Core/Public/Containers/ContainerAllocationPolicies.h:332]
+0x000000000511bcfb CommonLinuxCrashHandler(FGenericCrashContext const&) [/data_1/linux_ue/UnrealEngine-4.19/Engine/Source/Runtime/Linux/LinuxCommonStartup/Private/LinuxCommonStartup.cpp:37]
+0x000000000225c1ad PlatformCrashHandler(int, siginfo_t*, void*) [/data_1/linux_ue/UnrealEngine-4.19/Engine/Source/Runtime/Core/Private/Linux/LinuxPlatformCrashContext.cpp:521]
+0x00007f0f3abd13c0 /lib/x86_64-linux-gnu/libpthread.so.0(+0x153c0) [0x7f0f3abd13c0]
+0x0000000005752de8 /home/xuejie/venom/Tracker/gym-unrealcv/gym_unrealcv/envs/UnrealEnv/DuelingRoom/tracking/Binaries/Linux/tracking() [0x5752de8]
+0x00000000056d1217 /home/xuejie/venom/Tracker/gym-unrealcv/gym_unrealcv/envs/UnrealEnv/DuelingRoom/tracking/Binaries/Linux/tracking() [0x56d1217]
+0x000000000379774a Linux_PlatformCreateDummyGLWindow(FPlatformOpenGLContext*) [/data_1/linux_ue/UnrealEngine-4.19/Engine/Source/Runtime/OpenGLDrv/Private/Linux/OpenGLLinux.cpp:119]
+0x0000000003799a18 PlatformInitOpenGL() [/data_1/linux_ue/UnrealEngine-4.19/Engine/Source/Runtime/OpenGLDrv/Private/Linux/OpenGLLinux.cpp:852]
+0x00000000037b5a3c FOpenGLDynamicRHI::FOpenGLDynamicRHI() [/data_1/linux_ue/UnrealEngine-4.19/Engine/Source/Runtime/OpenGLDrv/Private/Linux/OpenGLLinux.cpp:311]
+0x00000000037b57ec FOpenGLDynamicRHIModule::CreateRHI(ERHIFeatureLevel::Type) [/data_1/linux_ue/UnrealEngine-4.19/Engine/Source/Runtime/OpenGLDrv/Private/OpenGLDevice.cpp:1076]
+0x000000000381a5db PlatformCreateDynamicRHI() [/data_1/linux_ue/UnrealEngine-4.19/Engine/Source/Runtime/RHI/Private/Linux/LinuxDynamicRHI.cpp:68]
+0x0000000003819bff RHIInit(bool) [/data_1/linux_ue/UnrealEngine-4.19/Engine/Source/Runtime/RHI/Private/DynamicRHI.cpp:180]
+0x000000000212d808 FEngineLoop::PreInit(wchar_t const*) [/data_1/linux_ue/UnrealEngine-4.19/Engine/Source/Runtime/Launch/Private/LaunchEngineLoop.cpp:1785]
+0x000000000213ba38 GuardedMain(wchar_t const*) [/data_1/linux_ue/UnrealEngine-4.19/Engine/Source/Runtime/Launch/Private/Launch.cpp:42]
+0x000000000511ca23 CommonLinuxMain(int, char**, int (*)(wchar_t const*)) [/data_1/linux_ue/UnrealEngine-4.19/Engine/Source/Runtime/Linux/LinuxCommonStartup/Private/LinuxCommonStartup.cpp:236]
+0x00007f0f3a0d10b3 /lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xf3) [0x7f0f3a0d10b3]
+0x000000000212a889 /home/xuejie/venom/Tracker/gym-unrealcv/gym_unrealcv/envs/UnrealEnv/DuelingRoom/tracking/Binaries/Linux/tracking(_start+0x29) [0x212a889]
+
+[2021.11.10-14.47.36:446][  0]LogExit: Executing StaticShutdownAfterError
+Engine crash handling finished; re-raising signal 11 for the default handler. Good bye.

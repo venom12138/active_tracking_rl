@@ -14,10 +14,12 @@ def create_env(env_id, args):
         import gym_unrealcv
     env = gym.make(env_id)
     # config observation pre-processing
+    # run on a single agent environment
     if args.single:
         env = listspace(env)
+    # 把图片rescale到-1,1
     if args.rescale is True:
-        env = Rescale(env, args)  # rescale, inv
+        env = Rescale(env, args)  # rescale, inv，把env给封装起来了
     if 'img' in args.obs and '2D' not in env_id:
         env = UnrealPreprocess(env, args)  # gray, crop, resize
 
@@ -33,19 +35,19 @@ class Rescale(gym.Wrapper):
         self.new_mind = -1.0
 
         self.mx_d = 255.0
-        self.mn_d = 0.0
+        self.mn_d = 0.0 # 把0-255的图片给resize到-1，+1
         shape = env.observation_space[0].shape
         self.num_agents = len(self.observation_space)
         self.observation_space = [Box(self.new_mind, self.new_maxd, shape) for i in range(self.num_agents)]
 
-        self.obs_range = self.mx_d - self.mn_d
+        self.obs_range = self.mx_d - self.mn_d # 观测范围255
         self.args = args
-        self.inv_img = self.choose_rand_seed() and self.args.inv
+        self.inv_img = self.choose_rand_seed() and self.args.inv # 随机反转图片？
 
     def rescale(self, x):
-        obs = x.clip(self.mn_d, self.mx_d)
+        obs = x.clip(self.mn_d, self.mx_d) # 把超范围的obs给clip，主要是为了防止非法输入
         new_obs = (((obs - self.mn_d) * (self.new_maxd - self.new_mind)
-                    ) / self.obs_range) + self.new_mind
+                    ) / self.obs_range) + self.new_mind # 把原图坐标映射到新图上
         return new_obs
 
     def reset(self):
@@ -57,7 +59,7 @@ class Rescale(gym.Wrapper):
         # invert image
         self.inv_img = self.choose_rand_seed() and self.args.inv
         if self.inv_img:
-            ob = - ob
+            ob = - ob # 因为是-1，+1，所以就可以直接取负？ob的形状？？？
 
         return ob
 
@@ -146,7 +148,7 @@ class frame_stack(gym.Wrapper):
         return ob, rew, done, info
 
     def observation(self):
-        ob = [np.stack(self.frames[i], axis=0) for i in range(self.num_agents)]
+        ob = [np.stack(self.frames[i], axis=0) for i in range(self.num_agents)] # 好像就是把self.frame给存到一个list里面，没啥别的用
         return np.array(ob)
 
 

@@ -55,6 +55,8 @@ if __name__ == '__main__':
 
     args = parser.parse_args()
     torch.manual_seed(args.seed)
+    
+    # 分配训练的devices
     if args.gpu_ids == -1:
         torch.manual_seed(args.seed)
         args.gpu_ids = [-1]
@@ -66,8 +68,10 @@ if __name__ == '__main__':
             device_share = torch.device('cpu')
         else:
             device_share = torch.device('cuda:' + str(args.gpu_ids[-1]))
+    # 创建环境
     env = create_env(args.env, args)
-
+    
+    # 创建一个A3C Dueling的环境，并设置为train模式
     shared_model = build_model(
         env.observation_space, env.action_space, args, device_share).to(device_share)
 
@@ -77,7 +81,8 @@ if __name__ == '__main__':
         params = shared_model.player1.parameters()
     else:
         params = shared_model.parameters()
-
+        
+    # shared_memory的实现？
     if args.load_model_dir is not None:
         saved_state = torch.load(
             args.load_model_dir,

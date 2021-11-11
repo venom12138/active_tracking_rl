@@ -1,0 +1,6 @@
+setup.py
+gym_track2d.egg-info/PKG-INFO
+gym_track2d.egg-info/SOURCES.txt
+gym_track2d.egg-info/dependency_links.txt
+gym_track2d.egg-info/requires.txt
+gym_track2d.egg-info/top_level.txt
