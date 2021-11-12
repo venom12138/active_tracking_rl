@@ -214,7 +214,7 @@ class A3C_MULTI_TRACK(torch.nn.Module):
             self.encoder_pos = BiRNN(pos_dim, int(fuse_out / 2), 1, device, 'gru')  # input_size, hiden_size, layers, device
             self.encoder_pos_tracker = BiRNN(pos_dim, int(fuse_out / 2), 1, device, 'gru')  # input_size, hiden_size, layers, device
         feature_dim_pos = self.encoder_pos.feature_dim
-
+        # TrackerNet里既有policynet又有valuenet
         self.tracker = TrackerNet(obs_shapes[0], action_spaces[0], args.rnn_out, feature_dim_pos, args.tracker_net, stack_frames, device, args.aux)
 
         # config aux info

@@ -77,6 +77,7 @@ parser.add_argument('--early-done', dest='early_done', action='store_true', help
 if __name__ == '__main__':
 
     args = parser.parse_args()
+    # 共享优化器
     args.shared_optimizer = True
     if args.gpu_ids == -1 and args.gpu == -1:
         torch.manual_seed(args.seed)

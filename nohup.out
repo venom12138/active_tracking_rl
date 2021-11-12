@@ -1,0 +1,415 @@
+Increasing per-process limit of core file size to infinity.
+LogConsoleResponse: Display: Failed to find resolution value strings in scalability ini. Falling back to default.
+LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+LogPakFile: Display: Found Pak file ../../../trackingroom2/Content/Paks/trackingroom2-LinuxNoEditor.pak attempting to mount.
+LogPakFile: Display: Mounting pak file ../../../trackingroom2/Content/Paks/trackingroom2-LinuxNoEditor.pak.
+LogPlatformFile: Using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 17 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.076068
+LogICUInternationalization: ICU TimeZone Detection - Raw Offset: +0:00, Platform Override: ''
+LogPluginManager: Mounting plugin UnrealCV
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin AnimationSharing
+LogPluginManager: Mounting plugin SignificanceManager
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin VariantManagerContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleVision
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin LinearTimecode
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WebMMoviePlayer
+LogPluginManager: Mounting plugin WebMMedia
+LogInit: Using libcurl 7.48.0-DEV
+LogInit:  - built for x86_64-unknown-linux-gnu
+LogInit:  - supports SSL with OpenSSL/1.0.2h
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_TLSAUTH_SRP
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogInit: Build: ++UE4+Release-4.22-CL-0
+LogInit: Engine Version: 4.22.3-0+++UE4+Release-4.22
+LogInit: Compatible Engine Version: 4.22.0-0+++UE4+Release-4.22
+LogInit: Net CL: 0
+LogInit: OS: GenericOSVersionLabel (GenericOSSubVersionLabel), CPU: AMD Ryzen 9 5950X 16-Core Processor            , GPU: GenericGPUBrand
+LogInit: Compiled (64-bit): Jun  8 2021 21:23:45
+LogInit: Compiled with Clang: 7.0.1 (tags/RELEASE_701/final)
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.22
+LogInit: Command Line: 
+LogInit: Base Directory: /home/xuejie/venom/Tracker/gym-unrealcv/gym_unrealcv/envs/UnrealEnv/FlexibleRoom/trackingroom2/Binaries/Linux/
+LogInit: Installed Engine Build: 0
+LogDevObjectVersion: Number of dev versions registered: 23
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 3
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 30
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 35
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 28
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 11
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 2
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-Anim (AF43A65D-7FD3-4947-9873-3E8ED9C1BB05): 2
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 25
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 6
+LogDevObjectVersion:   Dev-Niagara (F2AED0AC-9AFE-416F-8664-AA7FFA26D6FC): 1
+LogDevObjectVersion:   Dev-Destruction (174F1F0B-B4C6-45A5-B13F-2EE8D0FB917D): 2
+LogInit: Presizing for max 2097152 objects, including 1 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogStreaming: Display: Async Loading initialized: Event Driven Loader: true, Async Loading Thread: false, Async Post Load: true
+LogInit: Object subsystem initialized
+LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
+LogConfig: Setting CVar [[r.setres:1280x720]]
+[2021.11.12-16.29.22:994][  0]LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
+[2021.11.12-16.29.22:994][  0]LogConfig: Setting CVar [[r.setres:1280x720]]
+[2021.11.12-16.29.22:994][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [../../../trackingroom2/Saved/Config/LinuxNoEditor/Engine.ini]
+[2021.11.12-16.29.22:994][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2021.11.12-16.29.22:994][  0]LogConfig: Setting CVar [[r.DefaultFeature.AutoExposure.ExtendDefaultLuminanceRange:0]]
+[2021.11.12-16.29.22:994][  0]LogConfig: Setting CVar [[r.SupportStationarySkylight:1]]
+[2021.11.12-16.29.22:994][  0]LogConfig: Setting CVar [[r.DefaultFeature.AutoExposure.Method:1]]
+[2021.11.12-16.29.22:994][  0]LogConfig: Setting CVar [[r.UsePreExposure:0]]
+[2021.11.12-16.29.22:994][  0]LogConfig: Setting CVar [[r.DefaultFeature.AutoExposure:1]]
+[2021.11.12-16.29.22:994][  0]LogConfig: Setting CVar [[r.ForwardShading:0]]
+[2021.11.12-16.29.22:994][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [../../../trackingroom2/Saved/Config/LinuxNoEditor/Engine.ini]
+[2021.11.12-16.29.22:994][  0]LogConfig: Applying CVar selibEGL warning: failed to open /dev/dri/renderD128: Permission denied
+
+libEGL warning: failed to open /dev/dri/renderD128: Permission denied
+
+ttings from Section [/Script/Engine.StreamingSettings] File [../../../trackingroom2/Saved/Config/LinuxNoEditor/Engine.ini]
+[2021.11.12-16.29.22:994][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2021.11.12-16.29.22:994][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2021.11.12-16.29.22:994][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2021.11.12-16.29.22:994][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2021.11.12-16.29.22:994][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2021.11.12-16.29.22:994][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2021.11.12-16.29.22:994][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2021.11.12-16.29.22:994][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2021.11.12-16.29.22:994][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2021.11.12-16.29.22:994][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2021.11.12-16.29.22:994][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2021.11.12-16.29.22:994][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2021.11.12-16.29.22:994][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2021.11.12-16.29.22:994][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [../../../trackingroom2/Saved/Config/LinuxNoEditor/Engine.ini]
+[2021.11.12-16.29.22:994][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2021.11.12-16.29.22:994][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2021.11.12-16.29.22:994][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2021.11.12-16.29.22:994][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2021.11.12-16.29.22:994][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2021.11.12-16.29.22:994][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2021.11.12-16.29.22:994][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:16777216]]
+[2021.11.12-16.29.22:994][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2021.11.12-16.29.22:994][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2021.11.12-16.29.22:994][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2021.11.12-16.29.22:994][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2021.11.12-16.29.22:994][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2021.11.12-16.29.22:994][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2021.11.12-16.29.22:994][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [../../../trackingroom2/Saved/Config/LinuxNoEditor/Engine.ini]
+[2021.11.12-16.29.22:994][  0]LogInit: Initializing SDL.
+[2021.11.12-16.29.23:005][  0]LogInit: Initialized SDL 2.0.8 revision: 11184 (hg-12121:4358e537000a with EpicExtensions) (compiled against 2.0.8)
+[2021.11.12-16.29.23:005][  0]LogInit: Using SDL video driver 'offscreen'
+[2021.11.12-16.29.23:005][  0]LogInit: Display metrics:
+[2021.11.12-16.29.23:005][  0]LogInit:   PrimaryDisplayWidth: 1024
+[2021.11.12-16.29.23:005][  0]LogInit:   PrimaryDisplayHeight: 768
+[2021.11.12-16.29.23:005][  0]LogInit:   PrimaryDisplayWorkAreaRect:
+[2021.11.12-16.29.23:005][  0]LogInit:     Left=0, Top=0, Right=1024, Bottom=768
+[2021.11.12-16.29.23:005][  0]LogInit:   VirtualDisplayRect:
+[2021.11.12-16.29.23:005][  0]LogInit:     Left=0, Top=0, Right=1024, Bottom=768
+[2021.11.12-16.29.23:005][  0]LogInit:   TitleSafePaddingSize: X=0.000 Y=0.000 Z=0.000 W=0.000
+[2021.11.12-16.29.23:005][  0]LogInit:   ActionSafePaddingSize: X=0.000 Y=0.000 Z=0.000 W=0.000
+[2021.11.12-16.29.23:005][  0]LogInit:   Number of monitors: 1
+[2021.11.12-16.29.23:005][  0]LogInit:     Monitor 0
+[2021.11.12-16.29.23:006][  0]LogInit:       Name: 0
+[2021.11.12-16.29.23:006][  0]LogInit:       ID: display0
+[2021.11.12-16.29.23:006][  0]LogInit:       NativeWidth: 1024
+[2021.11.12-16.29.23:006][  0]LogInit:       NativeHeight: 768
+[2021.11.12-16.29.23:006][  0]LogInit:       bIsPrimary: true
+[2021.11.12-16.29.23:006][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [../../../trackingroom2/Saved/Config/LinuxNoEditor/Scalability.ini]
+[2021.11.12-16.29.23:006][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2021.11.12-16.29.23:006][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2021.11.12-16.29.23:006][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [../../../trackingroom2/Saved/Config/LinuxNoEditor/Scalability.ini]
+[2021.11.12-16.29.23:006][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2021.11.12-16.29.23:006][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [../../../trackingroom2/Saved/Config/LinuxNoEditor/Scalability.ini]
+[2021.11.12-16.29.23:006][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2021.11.12-16.29.23:006][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2021.11.12-16.29.23:006][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2021.11.12-16.29.23:006][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2021.11.12-16.29.23:006][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2021.11.12-16.29.23:006][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2021.11.12-16.29.23:006][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2021.11.12-16.29.23:006][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2021.11.12-16.29.23:006][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2021.11.12-16.29.23:006][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2021.11.12-16.29.23:006][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2021.11.12-16.29.23:006][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2021.11.12-16.29.23:006][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2021.11.12-16.29.23:006][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2021.11.12-16.29.23:006][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2021.11.12-16.29.23:006][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2021.11.12-16.29.23:006][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2021.11.12-16.29.23:006][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2021.11.12-16.29.23:006][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [../../../trackingroom2/Saved/Config/LinuxNoEditor/Scalability.ini]
+[2021.11.12-16.29.23:006][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2021.11.12-16.29.23:006][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2021.11.12-16.29.23:006][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2021.11.12-16.29.23:006][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2021.11.12-16.29.23:006][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2021.11.12-16.29.23:006][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2021.11.12-16.29.23:006][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2021.11.12-16.29.23:006][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2021.11.12-16.29.23:006][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2021.11.12-16.29.23:006][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2021.11.12-16.29.23:006][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2021.11.12-16.29.23:006][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2021.11.12-16.29.23:006][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2021.11.12-16.29.23:006][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2021.11.12-16.29.23:006][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2021.11.12-16.29.23:006][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2021.11.12-16.29.23:006][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2021.11.12-16.29.23:006][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2021.11.12-16.29.23:006][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2021.11.12-16.29.23:006][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2021.11.12-16.29.23:006][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2021.11.12-16.29.23:006][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2021.11.12-16.29.23:006][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2021.11.12-16.29.23:006][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2021.11.12-16.29.23:006][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2021.11.12-16.29.23:006][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2021.11.12-16.29.23:006][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2021.11.12-16.29.23:006][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2021.11.12-16.29.23:006][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2021.11.12-16.29.23:006][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2021.11.12-16.29.23:006][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [../../../trackingroom2/Saved/Config/LinuxNoEditor/Scalability.ini]
+[2021.11.12-16.29.23:006][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2021.11.12-16.29.23:006][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2021.11.12-16.29.23:006][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2021.11.12-16.29.23:006][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2021.11.12-16.29.23:006][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2021.11.12-16.29.23:006][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2021.11.12-16.29.23:006][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2021.11.12-16.29.23:006][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2021.11.12-16.29.23:006][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [../../../trackingroom2/Saved/Config/LinuxNoEditor/Scalability.ini]
+[2021.11.12-16.29.23:006][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2021.11.12-16.29.23:006][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2021.11.12-16.29.23:006][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2021.11.12-16.29.23:006][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2021.11.12-16.29.23:006][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2021.11.12-16.29.23:006][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2021.11.12-16.29.23:006][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2021.11.12-16.29.23:006][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2021.11.12-16.29.23:006][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2021.11.12-16.29.23:006][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2021.11.12-16.29.23:006][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2021.11.12-16.29.23:006][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2021.11.12-16.29.23:006][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2021.11.12-16.29.23:006][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [../../../trackingroom2/Saved/Config/LinuxNoEditor/Scalability.ini]
+[2021.11.12-16.29.23:006][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2021.11.12-16.29.23:006][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2021.11.12-16.29.23:007][  0]LogLinux: Selected Device Profile: [LinuxNoEditor]
+[2021.11.12-16.29.23:007][  0]LogInit: Applying CVar settings loaded from the selected device profile: [LinuxNoEditor]
+[2021.11.12-16.29.23:013][  0]LogHAL: Display: Platform has ~ 4 GB [67421552640 / 4294967296 / 63], which maps to Smallest [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2021.11.12-16.29.23:013][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
+[2021.11.12-16.29.23:013][  0]LogInit: Going up to parent DeviceProfile [Linux]
+[2021.11.12-16.29.23:013][  0]LogInit: Going up to parent DeviceProfile []
+[2021.11.12-16.29.23:014][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [../../../trackingroom2/Saved/Config/LinuxNoEditor/Scalability.ini]
+[2021.11.12-16.29.23:014][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2021.11.12-16.29.23:014][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2021.11.12-16.29.23:014][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [../../../trackingroom2/Saved/Config/LinuxNoEditor/Scalability.ini]
+[2021.11.12-16.29.23:014][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2021.11.12-16.29.23:014][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@0] File [../../../trackingroom2/Saved/Config/LinuxNoEditor/Scalability.ini]
+[2021.11.12-16.29.23:014][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:0]]
+[2021.11.12-16.29.23:014][  0]LogConfig: Setting CVar [[r.ShadowQuality:0]]
+[2021.11.12-16.29.23:014][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:1]]
+[2021.11.12-16.29.23:014][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:512]]
+[2021.11.12-16.29.23:014][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:512]]
+[2021.11.12-16.29.23:014][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.06]]
+[2021.11.12-16.29.23:014][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:0.6]]
+[2021.11.12-16.29.23:014][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:0]]
+[2021.11.12-16.29.23:014][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:0.5]]
+[2021.11.12-16.29.23:014][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:0]]
+[2021.11.12-16.29.23:014][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:0]]
+[2021.11.12-16.29.23:014][  0]LogConfig: Setting CVar [[r.VolumetricFog:0]]
+[2021.11.12-16.29.23:014][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:0]]
+[2021.11.12-16.29.23:014][  0]LogConfig: Setting CVar [[r.CapsuleShadows:0]]
+[2021.11.12-16.29.23:014][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [../../../trackingroom2/Saved/Config/LinuxNoEditor/Scalability.ini]
+[2021.11.12-16.29.23:014][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2021.11.12-16.29.23:014][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2021.11.12-16.29.23:014][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2021.11.12-16.29.23:014][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2021.11.12-16.29.23:014][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2021.11.12-16.29.23:014][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2021.11.12-16.29.23:014][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2021.11.12-16.29.23:014][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2021.11.12-16.29.23:014][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2021.11.12-16.29.23:014][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2021.11.12-16.29.23:014][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2021.11.12-16.29.23:014][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2021.11.12-16.29.23:014][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2021.11.12-16.29.23:014][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2021.11.12-16.29.23:014][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2021.11.12-16.29.23:014][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2021.11.12-16.29.23:014][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2021.11.12-16.29.23:014][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2021.11.12-16.29.23:014][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2021.11.12-16.29.23:014][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2021.11.12-16.29.23:014][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2021.11.12-16.29.23:014][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2021.11.12-16.29.23:014][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2021.11.12-16.29.23:014][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2021.11.12-16.29.23:014][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2021.11.12-16.29.23:014][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2021.11.12-16.29.23:014][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2021.11.12-16.29.23:014][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2021.11.12-16.29.23:014][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2021.11.12-16.29.23:014][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2021.11.12-16.29.23:014][  0]LogConfig: Applying CVar settings from Section [TextureQuality@0] File [../../../trackingroom2/Saved/Config/LinuxNoEditor/Scalability.ini]
+[2021.11.12-16.29.23:014][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:16]]
+[2021.11.12-16.29.23:014][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:1]]
+[2021.11.12-16.29.23:014][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:1]]
+[2021.11.12-16.29.23:014][  0]LogConfig: Setting CVar [[r.Streaming.Boost:0.3]]
+[2021.11.12-16.29.23:014][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:0]]
+[2021.11.12-16.29.23:014][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:1]]
+[2021.11.12-16.29.23:014][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:400]]
+[2021.11.12-16.29.23:014][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2021.11.12-16.29.23:014][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@0] File [../../../trackingroom2/Saved/Config/LinuxNoEditor/Scalability.ini]
+[2021.11.12-16.29.23:014][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:24]]
+[2021.11.12-16.29.23:014][  0]LogConfig: Setting CVar [[r.RefractionQuality:0]]
+[2021.11.12-16.29.23:014][  0]LogConfig: Setting CVar [[r.SSR.Quality:0]]
+[2021.11.12-16.29.23:014][  0]LogConfig: Setting CVar [[r.SceneColorFormat:3]]
+[2021.11.12-16.29.23:014][  0]LogConfig: Setting CVar [[r.DetailMode:0]]
+[2021.11.12-16.29.23:014][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:0]]
+[2021.11.12-16.29.23:014][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:0 ; Low quality]]
+[2021.11.12-16.29.23:014][  0]LogConfig: Setting CVar [[r.SSS.Scale:0]]
+[2021.11.12-16.29.23:014][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:0]]
+[2021.11.12-16.29.23:014][  0]LogConfig: Setting CVar [[r.SSS.Quality:0]]
+[2021.11.12-16.29.23:014][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2021.11.12-16.29.23:014][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:0.125]]
+[2021.11.12-16.29.23:014][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:0]]
+[2021.11.12-16.29.23:014][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [../../../trackingroom2/Saved/Config/LinuxNoEditor/Scalability.ini]
+[2021.11.12-16.29.23:014][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2021.11.12-16.29.23:014][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2021.11.12-16.29.23:014][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2021.11.12-16.29.23:014][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2021.11.12-16.29.23:014][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
+[2021.11.12-16.29.23:014][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [../../../trackingroom2/Saved/Config/LinuxNoEditor/Engine.ini]
+[2021.11.12-16.29.23:014][  0]LogConfig: Setting CVar [[g.TimeoutForBlockOnRenderFence:60000]]
+[2021.11.12-16.29.23:015][  0]LogInit: Unix hardware info:
+[2021.11.12-16.29.23:015][  0]LogInit:  - we are the first instance of this executable
+[2021.11.12-16.29.23:015][  0]LogInit:  - this process' id (pid) is 90652, parent process' id (ppid) is 90651
+[2021.11.12-16.29.23:015][  0]LogInit:  - we are not running under debugger
+[2021.11.12-16.29.23:015][  0]LogInit:  - machine network name is 'thor'
+[2021.11.12-16.29.23:015][  0]LogInit:  - user name is 'xuejie' (xuejie)
+[2021.11.12-16.29.23:015][  0]LogInit:  - we're logged in remotely
+[2021.11.12-16.29.23:015][  0]LogInit:  - we're running with rendering
+[2021.11.12-16.29.23:015][  0]LogInit:  - CPU: AuthenticAMD 'AMD Ryzen 9 5950X 16-Core Processor            ' (signature: 0xA20F10)
+[2021.11.12-16.29.23:015][  0]LogInit:  - Number of physical cores available for the process: 16
+[2021.11.12-16.29.23:015][  0]LogInit:  - Number of logical cores available for the process: 32
+[2021.11.12-16.29.23:015][  0]LogInit:  - Cache line size: 64
+[2021.11.12-16.29.23:015][  0]LogInit:  - Memory allocator used: binned2
+[2021.11.12-16.29.23:015][  0]LogInit:  - This binary is optimized with LTO: no, PGO: no, instrumented for PGO data collection: no
+[2021.11.12-16.29.23:015][  0]LogCore: Benchmarking clocks:
+[2021.11.12-16.29.23:015][  0]LogCore:  - CLOCK_MONOTONIC (id=1) can sustain 45235242 (45235K, 45M) calls per second without zero deltas.
+[2021.11.12-16.29.23:015][  0]LogCore:  - CLOCK_MONOTONIC_RAW (id=4) can sustain 47959913 (47960K, 48M) calls per second without zero deltas.
+[2021.11.12-16.29.23:015][  0]LogCore:  - CLOCK_MONOTONIC_COARSE (id=6) can sustain 205918615 (205919K, 206M) calls per second with 99.999874% zero deltas.
+[2021.11.12-16.29.23:015][  0]LogCore: Selected clock_id 4 (CLOCK_MONOTONIC_RAW) since it is the fastest support clock without zero deltas.
+[2021.11.12-16.29.23:015][  0]LogInit: Unix-specific commandline switches:
+[2021.11.12-16.29.23:015][  0]LogInit:  -ansimalloc - use malloc()/free() from libc (useful for tools like valgrind and electric fence)
+[2021.11.12-16.29.23:015][  0]LogInit:  -jemalloc - use jemalloc for all memory allocation
+[2021.11.12-16.29.23:015][  0]LogInit:  -binnedmalloc - use binned malloc  for all memory allocation
+[2021.11.12-16.29.23:015][  0]LogInit:  -filemapcachesize=NUMBER - set the size for case-sensitive file mapping cache
+[2021.11.12-16.29.23:015][  0]LogInit:  -useksm - uses kernel same-page mapping (KSM) for mapped memory (OFF)
+[2021.11.12-16.29.23:015][  0]LogInit:  -ksmmergeall - marks all mmap'd memory pages suitable for KSM (OFF)
+[2021.11.12-16.29.23:015][  0]LogInit:  -preloadmodulesymbols - Loads the main module symbols file into memory (OFF)
+[2021.11.12-16.29.23:015][  0]LogInit:  -sigdfl=SIGNAL - Allows a specific signal to be set to its default handler rather then ignoring the signal
+[2021.11.12-16.29.23:015][  0]LogInit:  -httpproxy=ADDRESS:PORT - redirects HTTP requests to a proxy (only supported if compiled with libcurl)
+[2021.11.12-16.29.23:015][  0]LogInit:  -reuseconn - allow libcurl to reuse HTTP connections (only matters if compiled with libcurl)
+[2021.11.12-16.29.23:015][  0]LogInit:  -virtmemkb=NUMBER - sets process virtual memory (address space) limit (overrides VirtualMemoryLimitInKB value from .ini)
+[2021.11.12-16.29.23:015][  0]LogInit:  - Physical RAM available (not considering process quota): 63 GB (64298 MB, 65841360 KB, 67421552640 bytes)
+[2021.11.12-16.29.23:015][  0]LogInit:  - VirtualMemoryAllocator pools will grow at scale 1.4
+[2021.11.12-16.29.23:015][  0]LogInit:  - MemoryRangeDecommit() will be a no-op (re-run with -vmapoolevict to change)
+[2021.11.12-16.29.23:034][  0]LogInit: Using OS detected language (en-US).
+[2021.11.12-16.29.23:034][  0]LogInit: Using OS detected locale (en-US).
+[2021.11.12-16.29.23:034][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2021.11.12-16.29.23:044][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2021.11.12-16.29.23:044][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2021.11.12-16.29.23:045][  0]LogInit: Using SDL_WINDOW_OPENGL
+Signal 11 caught.
+Malloc Size=65538 LargeMemoryPoolOffset=65554 
+CommonUnixCrashHandler: Signal=11
+Malloc Size=65535 LargeMemoryPoolOffset=131119 
+Malloc Size=47712 LargeMemoryPoolOffset=178848 
+Failed to find symbol file, expected location:
+"/home/xuejie/venom/Tracker/gym-unrealcv/gym_unrealcv/envs/UnrealEnv/FlexibleRoom/trackingroom2/Binaries/Linux/trackingroom2.sym"
+[2021.11.12-16.29.23:058][  0]LogCore: === Critical error: ===
+Unhandled Exception: SIGSEGV: invalid attempt to read memory at address 0x0000000000000010
+
+[2021.11.12-16.29.23:058][  0]LogCore: Fatal error!
+
+0x0000000005e06498 trackingroom2!UnknownFunction(0x5c06498)
+0x0000000005ddec0e trackingroom2!UnknownFunction(0x5bdec0d)
+0x0000000003f7d57c trackingroom2!UnknownFunction(0x3d7d57b)
+0x0000000003f7f3cd trackingroom2!UnknownFunction(0x3d7f3cc)
+0x0000000003f9b99f trackingroom2!UnknownFunction(0x3d9b99e)
+0x0000000003f9b6dc trackingroom2!UnknownFunction(0x3d9b6db)
+0x000000000402a282 trackingroom2!UnknownFunction(0x3e2a281)
+0x0000000004029546 trackingroom2!UnknownFunction(0x3e29545)
+0x0000000002407e33 trackingroom2!UnknownFunction(0x2207e32)
+0x0000000002415d32 trackingroom2!UnknownFunction(0x2215d31)
+0x0000000005b149af trackingroom2!UnknownFunction(0x59149ae)
+0x00007feb4b2ea0b3 libc.so.6!__libc_start_main(+0xf2)
+0x0000000002405029 trackingroom2!UnknownFunction(0x2205028)
+
+[2021.11.12-16.29.23:065][  0]LogExit: Executing StaticShutdownAfterError
+Engine crash handling finished; re-raising signal 11 for the default handler. Good bye.
