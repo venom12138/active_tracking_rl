@@ -94,7 +94,7 @@ class UnrealPreprocess(gym.ObservationWrapper):
             self.channel = 1
 
         self.observation_space = [Box(-1.0, 1.0, [self.channel, self.input_size, self.input_size],
-                                      dtype=np.uint8) for i in range(num_agnets)]
+                                    dtype=np.uint8) for i in range(num_agnets)]
 
     def process_frame_ue(self, frame, size=80):
 

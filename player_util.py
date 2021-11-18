@@ -10,7 +10,7 @@ class Agent(object):
     def __init__(self, model, env, args, state, device):
         self.model = model
         self.env = env
-        self.num_agents = len(env.observation_space)
+        self.num_agents = min(len(env.observation_space),2)
         if 'continuous' in args.network:
             self.action_high = [env.action_space[i].high for i in range(self.num_agents)]
             self.action_low = [env.action_space[i].low for i in range(self.num_agents)]
@@ -52,7 +52,8 @@ class Agent(object):
 
         # model return action_env_multi, entropy, log_prob
         state_multi, reward_multi, self.done, self.info = self.env.step(action_env_multi)
-
+        print(state_multi)
+        print("!!!!!!!!!!!!!!!!!!!!!!!!!!")
         # add to buffer
         self.reward_org = reward_multi.copy()
         self.reward = torch.tensor(reward_multi).float().to(self.device)

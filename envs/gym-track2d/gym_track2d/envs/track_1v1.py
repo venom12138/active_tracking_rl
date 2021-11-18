@@ -12,14 +12,14 @@ class Track1v1Env(gym.Env):
     metadata = {'render.modes': ['human', 'rgb_array']}
 
     def __init__(self,
-                 map_type='Block',
-                 pob_size=6,
-                 action_type='VonNeumann',
-                 obs_type='Partial',
-                 target_mode='PZR',
-                 live_display=True,
-                 render_trace=True,
-                 level=0):
+                map_type='Block',
+                pob_size=6,
+                action_type='VonNeumann',
+                obs_type='Partial',
+                target_mode='PZR',
+                live_display=True,
+                render_trace=True,
+                level=0):
         """Initialize the maze. DType: list"""
         # Random seed with internal gym seeding
         self.seed()
@@ -85,12 +85,12 @@ class Track1v1Env(gym.Env):
 
         for i in range(self.num_agents):
             self.state[i], self.C_collision[i] = self._next_state(self.state[i], int(action[i]),
-                                                                  self.action_type)
+                                                                self.action_type)
 
         self.traces_relative = []
         for j in range(self.num_agents):
             self.traces_relative.append([np.array(self.init_states[i]) - np.array(self.init_states[j]) for i in
-                                         range(self.num_agents)])
+                                        range(self.num_agents)])
         d_all = np.array([np.linalg.norm(np.array(self.state[i]) - np.array(self.state[0])) for i in range(self.num_agents)])
 
         max_distance = float(self.pob_size)

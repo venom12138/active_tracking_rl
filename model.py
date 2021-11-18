@@ -230,7 +230,7 @@ class A3C_Dueling(torch.nn.Module):
             if 'tat' in head_name:
                 self.tat = True
                 self.player1 = TAT(obs_shapes[1], action_space[1], rnn_out,
-                                   head_name, stack_frames*2, self.action_dim_tracker, device=device)
+                                    head_name, stack_frames*2, self.action_dim_tracker, device=device)
             else:
                 self.tat = False
                 self.player1 = A3C(obs_shapes[1], action_space[1], rnn_out, head_name, stack_frames, device=device)

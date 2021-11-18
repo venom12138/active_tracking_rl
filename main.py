@@ -54,6 +54,7 @@ parser.add_argument('--init-step', type=int, default=-1, metavar='IS', help='ste
 if __name__ == '__main__':
 
     args = parser.parse_args()
+
     torch.manual_seed(args.seed)
     
     # 分配训练的devices
@@ -72,6 +73,7 @@ if __name__ == '__main__':
     env = create_env(args.env, args)
     
     # 创建一个A3C Dueling的环境，并设置为train模式
+    # 创建的是shared_model，因为A3C异步进行，所有的worker传回的数据共同更新shared_model
     shared_model = build_model(
         env.observation_space, env.action_space, args, device_share).to(device_share)
 
@@ -101,6 +103,7 @@ if __name__ == '__main__':
 
     current_time = datetime.now().strftime('%b%d_%H-%M')
     args.log_dir = os.path.join(args.log_dir, args.env, current_time)
+    
     if args.gpu_ids[-1] == -1:
         env.close()
 

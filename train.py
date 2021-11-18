@@ -14,7 +14,10 @@ import time
 
 def train(rank, args, shared_model, optimizer, train_modes, n_iters, env=None):
     n_iter = 0
-    writer = SummaryWriter(os.path.join(args.log_dir, 'Agent:{}'.format(rank)))
+    log_path = os.path.join(args.log_dir, 'Agent:{}'.format(rank))
+    # log_path = log_path.replace('/','\ ').replace(' ','')
+    # print(log_path)
+    writer = SummaryWriter(log_path)
     ptitle('Training Agent: {}'.format(rank))
     gpu_id = args.gpu_ids[rank % len(args.gpu_ids)]
     torch.manual_seed(args.seed + rank)
@@ -67,6 +70,7 @@ def train(rank, args, shared_model, optimizer, train_modes, n_iters, env=None):
     count_eps = 0
     while True:
         # sys to the shared model
+        # A3C异步执行，每个episode就把shared_model给load进model里
         player.model.load_state_dict(shared_model.state_dict())
 
         if player.done:
