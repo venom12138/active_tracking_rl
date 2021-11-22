@@ -122,8 +122,13 @@ class Track1v1Env(gym.Env):
         info['traces'] = self.traces
         info['traces_relative'] = self.traces_relative
         if 'Nav' in self.target_mode or 'Ram' in self.target_mode:
+            # 相当于只取前两个，也就是两个的obs
             obs = obs[:2]
             rewards = rewards[:2]
+            # print("num_agents:{}".format(self.num_agents))
+            # print("obs:{}".format(np.array(obs).shape))
+        # print('rewards:{}'.format(rewards))
+        # print(obs.shape)
         return obs, rewards, done, info
 
     def seed(self, seed=None):

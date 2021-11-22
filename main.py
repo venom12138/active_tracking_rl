@@ -54,7 +54,6 @@ parser.add_argument('--init-step', type=int, default=-1, metavar='IS', help='ste
 if __name__ == '__main__':
 
     args = parser.parse_args()
-
     torch.manual_seed(args.seed)
     
     # 分配训练的devices

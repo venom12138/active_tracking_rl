@@ -20,6 +20,7 @@ def create_env(env_id, args):
     # 把图片rescale到-1,1
     if args.rescale is True:
         env = Rescale(env, args)  # rescale, inv，把env给封装起来了
+        
     if 'img' in args.obs and '2D' not in env_id:
         env = UnrealPreprocess(env, args)  # gray, crop, resize
 

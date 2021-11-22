@@ -20,7 +20,7 @@ def test(args, shared_model, train_modes, n_iters):
     gpu_id = args.gpu_ids[-1]
     log = {}
     setup_logger('{}_log'.format(args.env),
-                 r'{0}/logger'.format(args.log_dir))
+                r'{0}/logger'.format(args.log_dir))
     log['{}_log'.format(args.env)] = logging.getLogger(
         '{}_log'.format(args.env))
     d_args = vars(args)
