@@ -44,9 +44,9 @@ class A3C_MULTI_POS(torch.nn.Module):
 
         pos_dim = args.pos
         self.encoder_pos = BiRNN(pos_dim, int(fuse_out / 2), 1, device,
-                                 'gru')  # input_size, hiden_size, layers, device
+                                    'gru')  # input_size, hiden_size, layers, device
         self.encoder_pos_tracker = BiRNN(pos_dim, int(fuse_out / 2), 1, device,
-                                         'gru')  # input_size, hiden_size, layers, device
+                                        'gru')  # input_size, hiden_size, layers, device
 
         feature_dim_pos = self.encoder_pos.feature_dim
 

@@ -60,6 +60,7 @@ class Agent(object):
 
         if 'rule' in self.args.tracker_net:
             self.rule_actor = rule_ctl(self.env.resolution)
+            
     def wrap_action(self, action, high, low):
         action = np.squeeze(action)
         out = action * (high - low)/2.0 + (high + low)/2.0

@@ -101,7 +101,7 @@ if __name__ == '__main__':
             map_location=lambda storage, loc: storage)
         shared_model.load_state_dict(saved_state['model'], strict=False)
         # optimizer_state = saved_state['optimizer']
-  
+
     if args.load_tracker is not None:
         if args.load_tracker[-3:] == 'pth':
             saved_state = torch.load(
@@ -115,7 +115,7 @@ if __name__ == '__main__':
         else:
             saved_tracker = torch.load(args.load_tracker)
             saved_tracker = {name: param for name, param in saved_tracker.items() if
-                           'tracker' in name}
+                        'tracker' in name}
 
         shared_model.load_state_dict(saved_tracker, strict=False)
     params = shared_model.parameters()
