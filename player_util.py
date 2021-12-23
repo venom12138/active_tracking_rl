@@ -60,10 +60,11 @@ class Agent(object):
         self.state = torch.from_numpy(state_multi).float().to(self.device)
         self.eps_len += 1
         self.values.append(value_multi)
-
+        # print('reward:{},{}'.format(self.reward.unsqueeze(1),self.reward.size()))
         self.entropies.append(entropy)
         self.log_probs.append(log_prob)
         self.rewards.append(self.reward.unsqueeze(1))
+        print('reward:{},{}'.format(self.rewards,self.rewards[0].size()))
         self.preds.append(R_pred)
         return self
 
