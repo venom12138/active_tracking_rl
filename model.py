@@ -132,6 +132,7 @@ class A3C(torch.nn.Module):
 
     def forward(self, inputs, test=False):
         x, (hx, cx) = inputs
+        print(f'A3C_states:{x.size()}')
         feature = self.encoder(x)
         if 'lstm' in self.head_name:
             hx, cx = self.lstm(feature, (hx, cx))
@@ -141,7 +142,6 @@ class A3C(torch.nn.Module):
             feature = hx
         value = self.critic(feature)
         action, entropy, log_prob = self.actor(feature, test)
-
         return value, action, entropy, log_prob, (hx, cx)
 
 
@@ -237,6 +237,8 @@ class A3C_Dueling(torch.nn.Module):
 
     def forward(self, inputs, test=False):
         states, (hx, cx) = inputs
+        
+        print(f'A3Cdueling_states:{states.size()}')
 
         # run tracker
         value0, action_0, entropy_0, log_prob_0, (hx_0, cx_0) = self.player0((states[0], (hx[:1], cx[:1])), test)
